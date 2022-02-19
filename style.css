@@ -1,0 +1,290 @@
+
+    .robot{
+        position: absolute;
+    margin-top: 100px;
+}
+.tete{
+    border-radius: 5px;
+    border: solid 1px blue;
+    height: 70px;
+width: 70px;
+margin-left: 660px;
+}
+.antena{
+    margin-top: 58.5px;
+    margin-left: 695px;
+    width: 0px;
+    height: 40px;
+    border: solid 1px rgb(38, 0, 255);
+    position: absolute;
+}
+.blink{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 686px;
+    margin-top: 38px;
+    border-radius: 15px;
+    background-color: red;
+    animation: blin 1s infinite;
+}
+@keyframes blin{
+    to{
+        background-color: blue;
+    }
+}
+
+.ventre{
+    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: solid 1px blue;
+    height: 200px;
+width: 180px;
+margin-top: 15px;
+margin-left: 600px;
+border-top: solid 1px blue;
+}
+.yeux0{
+    font-family: monospace;
+margin-left: 5px;
+margin-top: 10px;
+width: 10px;
+height: 10px;
+border-radius: 15px;
+border: solid 5px black;
+background-color: rgb(240, 18, 18);
+color: blue;
+text-align: center;
+
+}
+
+
+.yeux1{
+    text-align: center;
+    color: blue;
+   background-color: rgb(240, 18, 18);
+    font-family: monospace;
+    border-radius:  15px ;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 10px;
+    height: 10px;
+    border: solid 5px black;
+    
+    }
+    .nez{
+        background-color: blue;
+        border: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        margin-left: 29px;
+        margin-top: 5px;
+        width: 10px;
+        height: 12px;
+    }
+.bouche{
+    height: 10px;
+    margin-top: 5px;
+    margin-left: 22px;
+    width: 27px;
+    border-radius: 05px;
+        border: solid 1px blue;
+}
+.bras-gauche{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    animation-fill-mode: normal;
+    animation-direction: alternate;
+    border-top-left-radius: 15px;
+    margin-top: 15px;
+    margin-left: 497px;
+    position: absolute;
+    width: 100px;
+    height: 15px;
+ animation-fill-mode: normal;
+    animation-direction: alternate;
+    border: solid 1px blue;
+    border-top: solid 1px blue;
+}
+
+.bras-droit{
+    
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border: solid 1px blue;
+    animation: bras1 2s infinite;
+    border-top-right-radius: 15px;
+    margin-top: 15px;
+    margin-left: 783px;
+    position: absolute;
+    width: 100px;
+    height: 15px;
+    border-top: solid 1px blue;
+}
+.hand1{
+    border: solid 1px blue;
+    margin-top: 15px;
+    position: absolute;
+    width: 15px;
+    height: 100px;
+    animation: lever 2s infinite;
+    animation-fill-mode: normal;
+    animation-direction: alternate;
+  
+}
+.hand2{
+    
+    margin-left: 83px;
+    border: solid 1px blue;
+    margin-top: 15px;
+    position: absolute;
+    width: 15px;
+    height: 100px;
+    animation: lever 2s infinite;
+    animation-fill-mode: normal;
+    animation-direction: alternate;
+}
+@keyframes lever{
+    from{
+height: 20px;
+    }
+}
+.btnh0{
+    
+    background-color: rgb(0, 0, 0);
+    border-color:red ;
+    border-top: solid 5px rgb(0, 119, 255);
+    animation: infinite hand-up 2s;
+position: absolute;
+    margin-top: 120px;
+    width: 25px;
+    height: 25px;
+    margin-left:488px;
+    width: 32px;
+    height: 32px;
+    border-radius: 17px;
+    animation-fill-mode: normal;
+    animation-direction: alternate;
+}
+.btnh1{
+    background-color: rgb(0, 0, 0);
+    border-color:red ;
+    border-top: solid 5px rgb(0, 119, 255);
+position: absolute;
+    margin-top: 120px;
+    width: 32px;
+    height: 32px;
+    margin-left:860px;
+    border-radius: 17px;
+    animation: infinite hand-up 2s;
+    animation-fill-mode: normal;
+    animation-direction: alternate;
+}
+@keyframes hand-up{
+   from{ margin-top: 50px;
+   }
+}
+.pied-gauche{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-top: 2px;
+    margin-left: 615px;
+    position: absolute;
+width: 20px;
+height: 130px;
+border: solid 1px blue;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+.pied-droite{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-top: 2px;
+    margin-left: 748px;
+    position: absolute;
+width: 20px;
+height: 130px;
+border: solid 1px blue;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+
+.metal{
+    animation: hand-up 2s infinite;
+    background-color: white;
+    margin-top: 120px;
+width: 530px;
+height: 10px;
+position: absolute;
+border: black solid 1px;
+margin-left: 412px;
+animation-fill-mode: normal;
+animation-direction: alternate;
+}
+.kg0{
+    animation: hand-upkg 2s infinite;
+    animation-fill-mode: normal;
+animation-direction: alternate;
+    width: 40px;
+    height: 40px;
+position: absolute;
+margin-left: 390px;
+margin-top:105px;
+background-color: black;
+border-radius: 15px;
+border: solid 15px;
+}
+@keyframes hand-upkg{
+    from{ margin-top: 35px;
+    }
+ }
+.kg1{
+    border: solid 15px;
+    border-radius: 15px;
+position: absolute;
+animation: hand-upkg 2s infinite;
+animation-fill-mode: normal;
+animation-direction: alternate;
+width: 40px;
+height: 40px;
+margin-left: 930px;
+margin-top:105px;
+background-color: black;
+}
+@keyframes hand-up-bool{
+    from{ margin-top: 50px;
+    }
+ }
+ .stage{
+     background-color: rgb(255, 255, 255); 
+     border-top-right-radius: 100px;
+     border-top-left-radius: 100px;
+     margin-top: 105px;
+     width: 300px;
+     height: 80px;
+     border: solid 1px black;
+     margin-left: 540px;
+     text-align: center;
+ }
+ 
+ b{
+     font: 20px comic sans ms;
+ }
+ body{
+   overflow: hidden;
+ }
+ .time{
+     width: 179px;
+     height: 20px;
+     border: solid 1px blue;
+     text-align: center;
+     position: absolute;
+     font-family: monospace;
+     color: red;
+     font-size: 17px;
+     margin-top: 150px;
+ }
+
